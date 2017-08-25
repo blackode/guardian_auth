@@ -1,0 +1,15 @@
+<%= if logged_in?(@conn) do %>
+  <li>
+	<%= link "Sign out", to: session_path(@conn, :delete, current_user(@conn)),  method: :delete, class: "label label-danger" %><br>
+    </li>
+    <li>
+	<%= link current_user(@conn).email, to: user_path(@conn,:show, current_user(@conn)), class: "label label-primary pull-right" %>
+    </li>
+<% else %>
+  <li>
+	<%= link "Create new account", to: user_path(@conn, :new), class: "label label-info" %>
+    </li>
+    <li>
+	<%= link "Sign in", to: session_path(@conn, :new), class: "label label-info" %>
+    </li>
+<% end %>

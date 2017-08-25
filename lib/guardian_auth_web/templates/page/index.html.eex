@@ -1,0 +1,36 @@
+<div class="">
+  <h2><%= gettext "Welcome to %{name}!", name: "Blackode" %></h2>
+  <p class="lead">The Elixir and Phoenix Programmer <br /> who also the Graphic Designer and Writer</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>Resources</h4>
+    <ul>
+      <li>
+        <a href="https://github.com/blackode">Github</a>
+      </li>
+      <li>
+        <a href="https://blog.blackode.in">BLog</a>
+      </li>
+      <li>
+        <a href="https://resume.blackode.in">Resume</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4>Contact</h4>
+    <ul>
+      <li>
+        <a href="https://youtube.com/c/blackodee">Youtube Blackode Channel</a>
+      </li>
+      <li>
+        <a href="https://medium.com/@blackode">Medium Writings</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/tweetblackode">@tweetblackode</a>
+      </li>
+    </ul>
+  </div>
+</div>

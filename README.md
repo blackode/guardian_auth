@@ -39,4 +39,5 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-# guardian_auth
+#### Buy me a Coffee if this is useful Thanks for Reading.
+ https://paypal.me/ankanna
